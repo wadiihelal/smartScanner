@@ -1,0 +1,16 @@
+.os{
+    text-align: center;
+    border: thick double #32a2ce;
+    border-left-width: 6px;
+    border-right-width: 6px;
+    font-family: "Fira Sans", Arial, sans-serif;
+    border-bottom-width: 6px;
+    border-top-width: 6px;
+    margin-top:30px;
+    margin-left: 280px;
+    margin-right: 280px;
+    font-family: "Fira Sans", Arial, sans-serif;
+  }
+  .intro{
+    font-family: "Fira Sans", Arial, sans-serif;
+    color: #3f76b5;}

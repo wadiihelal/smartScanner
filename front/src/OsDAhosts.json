@@ -1,0 +1,1 @@
+[{"name": "Linux 3.2 - 3.10", "accuracy": "100", "line": "64896", "osclass": [{"type": "general purpose", "vendor": "Linux", "osfamily": "Linux", "osgen": "3.X", "accuracy": "100", "cpe": ["cpe:/o:linux:linux_kernel:3"]}], "IP": "192.168.1.1"}]

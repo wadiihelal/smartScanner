@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>        <link href="{{ url_for('static', filename='css/Osdetec.css') }}" rel="stylesheet">
+
+		<title>Scan Nmap</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap -->
+		<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/App.css') }}" rel="stylesheet">
+
+
+		<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery-1.11.1.min.js') }}"></script>
+
+		<!-- Custom Scripts -->
+		<link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+	</head>
+    <body>
+        <div class="main-header">
+            <div class="container">
+                <h3>Nmap Scan </h3>
+                <div class="col-xs-6" style="padding-left: 0px;">
+                </div>
+                <div class="col-xs-6 text-right">
+                </div>
+            </div>
+        </div>
+        <div class="os " >
+            <h2>Name : {{value[1]["name"]}}</h2>
+            <h3>Accuracy : {{value[1]["accuracy"]}}</h3>
+            <h4>Type: {{value[1]["osclass"][0]["type"]}}</h4>
+            <h4>Vendor: {{value[1]["osclass"][0]["vendor"]}}</h4>
+            <h4>Os family : {{value[1]["osclass"][0]["osfamily"]}}</h4>
+            <h4> Osgen :{{value[1]["osclass"][0]["osgen"]}}</h4>
+            <h4> Cpe :{{value[1]["osclass"][0]["cpe"][0]}}</h4>
+            </div>
+           
+
+    </body>
+</html>
